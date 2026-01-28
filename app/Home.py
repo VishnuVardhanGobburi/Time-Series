@@ -1,7 +1,8 @@
 import streamlit as st
-
 from src.config import APP_NAME
 
+ROOT_DIR = Path(__file__).resolve().parents[1]
+sys.path.append(str(ROOT_DIR))
 
 st.set_page_config(page_title=APP_NAME, layout="wide")
 
@@ -45,3 +46,4 @@ st.markdown(
 4. Use **Forecast & Explain** for scenario analysis and exports.
 """
 )
+
