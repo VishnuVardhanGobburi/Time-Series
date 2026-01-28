@@ -1,3 +1,4 @@
+import sys
 import streamlit as st
 from src.config import APP_NAME
 
@@ -46,4 +47,5 @@ st.markdown(
 4. Use **Forecast & Explain** for scenario analysis and exports.
 """
 )
+
 
